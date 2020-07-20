@@ -1,0 +1,24 @@
+Nome tabella:
+auto_in_vendita
+
+Colonne:
+Id - num - INT - PRIM KEY
+Cod_auto - num - INT - NOTNULL
+Marca - str - VARCHAR(80) - NOTNULL
+Modello - str - VARCHAR(80) - NOTNULL
+Data_immatricolazione - num - DATE - NOTNULL
+Km_percorsi - num - INT - NOTNULL
+Condizioni_auto - str - TEXT
+Colore - str - VARCHAR(80)
+Data_ingresso - num - DATE - NOTNULL
+Prezzo_ingresso - num - DOUBLE(8,2) - NOTNULL
+Ultimo_proprietario - str - VARCHAR(80)
+Nuovo_proprietario - str - VARCHAR(80) - NOTNULL
+Data_vendita - num - DATE - NOTNULL
+Prezzo_vendita - num - DOUBLE(8,2) - NOTNULL
+Sconto_effettuato - num - INT
+Tipo_pagamento - str - VARCHAR(80) - NOTNULL
+Cod_venditore - num - INT - NOTNULL
+
+
+
